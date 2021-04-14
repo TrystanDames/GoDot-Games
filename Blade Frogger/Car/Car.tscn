@@ -21,3 +21,4 @@ texture = ExtResource( 1 )
 position = Vector2( 4.10925, 4.05194 )
 scale = Vector2( 0.991228, 0.991228 )
 shape = SubResource( 1 )
+[connection signal="body_entered" from="." to="." method="_on_Car_body_entered"]
