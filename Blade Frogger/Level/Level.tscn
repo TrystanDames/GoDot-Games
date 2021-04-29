@@ -17,5 +17,5 @@ wait_time = 2.0
 autostart = true
 
 [node name="CarStart1" type="Position2D" parent="."]
-position = Vector2( 1108.99, 126.838 )
+position = Vector2( 1104.51, 236.84 )
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

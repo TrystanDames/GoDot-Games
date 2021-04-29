@@ -38,14 +38,14 @@ animations = [ {
 "name": "walk_up",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 1 ), ExtResource( 24 ), ExtResource( 20 ), ExtResource( 23 ), ExtResource( 26 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 14 ), ExtResource( 19 ) ],
-"loop": true,
-"name": "walk_down",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 4 ), ExtResource( 25 ), ExtResource( 27 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 15 ), ExtResource( 28 ), ExtResource( 18 ), ExtResource( 3 ) ],
 "loop": true,
 "name": "walk_side",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 1 ), ExtResource( 24 ), ExtResource( 20 ), ExtResource( 23 ), ExtResource( 26 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 14 ), ExtResource( 19 ) ],
+"loop": true,
+"name": "walk_down",
 "speed": 5.0
 } ]
 
