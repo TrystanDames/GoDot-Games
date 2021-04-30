@@ -7,6 +7,7 @@
 script = ExtResource( 3 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 495.94, 567.858 )
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 current = true
@@ -51,7 +52,7 @@ wait_time = 2.0
 autostart = true
 
 [node name="PlayerStartPos" type="Position2D" parent="."]
-position = Vector2( 497.438, 570.855 )
+position = Vector2( 492.943, 570.855 )
 [connection signal="timeout" from="CarTimer/Timer1" to="." method="_on_Timer1_timeout"]
 [connection signal="timeout" from="CarTimer/Timer2" to="." method="_on_Timer2_timeout"]
 [connection signal="timeout" from="CarTimer/Timer3" to="." method="_on_Timer3_timeout"]
