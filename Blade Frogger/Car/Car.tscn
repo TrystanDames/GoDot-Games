@@ -16,9 +16,9 @@ animations = [ {
 "name": "Grey1",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 4 ) ],
+"frames": [ ExtResource( 3 ) ],
 "loop": true,
-"name": "Grey2",
+"name": "Yellow2",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 5 ) ],
@@ -26,25 +26,25 @@ animations = [ {
 "name": "Yellow1",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 3 ) ],
+"frames": [ ExtResource( 4 ) ],
 "loop": true,
-"name": "Yellow2",
+"name": "Grey2",
 "speed": 5.0
 } ]
 
 [node name="Car" type="Area2D"]
-position = Vector2( 1153.08, 255.896 )
+position = Vector2( 1119.14, 291.958 )
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 0.95007, 2.37015 )
+position = Vector2( 0.950073, 2.37015 )
 scale = Vector2( 0.991228, 0.991228 )
 shape = SubResource( 1 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 2 )
-animation = "Yellow2"
+animation = "Grey1"
 [connection signal="body_entered" from="." to="." method="_on_Car_body_entered"]
