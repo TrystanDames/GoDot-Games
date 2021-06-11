@@ -7,13 +7,13 @@
 [ext_resource path="res://Blade Frogger Assets/Car/Yellow1.png" type="Texture" id=5]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 83.3601, 39.8253 )
+extents = Vector2( 83.3601, 32.6143 )
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
-"frames": [ ExtResource( 1 ) ],
+"frames": [ ExtResource( 5 ) ],
 "loop": true,
-"name": "Grey1",
+"name": "Yellow1",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 3 ) ],
@@ -21,26 +21,23 @@ animations = [ {
 "name": "Yellow2",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 5 ) ],
-"loop": true,
-"name": "Yellow1",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 4 ) ],
 "loop": true,
 "name": "Grey2",
 "speed": 5.0
+}, {
+"frames": [ ExtResource( 1 ) ],
+"loop": true,
+"name": "Grey1",
+"speed": 5.0
 } ]
 
 [node name="Car" type="Area2D"]
-position = Vector2( 1119.14, 291.958 )
+position = Vector2( 1132.14, 291.958 )
 script = ExtResource( 2 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 0.950073, 2.37015 )
+position = Vector2( -6.04993, -0.629852 )
 scale = Vector2( 0.991228, 0.991228 )
 shape = SubResource( 1 )
 
